@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+  width: 1200px;
+}
+
+.header .header-logo img {
+  height: 50px;
+}
+
+.header-nav li {
+  list-style-type: none;
+  float: left;
+  padding: 10px;
+}
+
+.header-nav a {
+  color: #161b3d;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.header-nav .signin {
+  background-color: #f0f0f0;
+  border-radius: 50px;
+  font-size: 12px;
+  padding: 5px 9px 6px 11px;
+}
+
+.header-nav .signup {
+  background-color: #2821fc;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 9px 6px 11px;
+}
